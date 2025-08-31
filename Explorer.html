@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li><a href="index.html" target="_blank">HOME</a></li>
+                    <li><a href="about.html" target="_blank">ABOUT</a></li>
+                    <li><a href="Explorer.html" target="_blank">EXPLORER</a></li>
+                    <li><a href="blog.html" target="_blank">BLOG</a></li>
+                    <li><a href="contact.html" target="_blank">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>OUR EXPLORER</h1>
+    </section>
+
+    <!------Explorer------>
+
+    <section class="explorer">
+        <h1>Explorer Pulau</h1>
+        <p>Ada banyak pulau yang ada di indonesia beberapa diantara nya yaitu
+            <br>pulau jawa, pulau sumatra dan pulau kalimantan.</p>
+
+        <div class="row">
+            <div class="explorer-col">
+                <h3> pulau jawa </h3>
+                <p> ada beberapa macam gunung yang ada di pulau jawa yaitu:</p>
+                <p> Gunung Semeru, Gunung Slamet, Gunung Sumbing, Gunung Arjuno, Gunung Raung, Gunung Lawu, dan Gunung Welirang.
+                    Selain itu, ada juga gunung lainnya
+                    seperti Gunung Papandayan, Gunung Sindoro, Gunung Merbabu, Gunung Gede, Gunung Bromo, Gunung Ciremai, dan Gunung Merapi. </p>
+            </div>
+            <div class="explorer-col">
+                <h3> pulau sumatra </h3>
+                <p> ada beberapa macam gunung yang ada di pulau sumatra yaitu:</p>
+                <p>Gunung Kerinci, Gunung Leuser, Gunung Sinabung, dan Gunung Sibayak, Gunung Bandahara, Gunung Kemiri,
+                    Gunung Kurik, Gunung Mugajah, Gunung Sibayak, Gunung Sibuatan, Gunung Sinabung, Gunung Sihabuhabu.</p>
+            </div>
+            <div class="explorer-col">
+                <h3> pulau kalimantan </h3>
+                <p> ada beberapa macam gunung yang ada di pulau kalimantan yaitu:</p>
+                <p>Gunung Liangpran, Gunung Bukit Raya, dan Gunung Harun,
+                    Gunung Cemaru, Gunung Batubrok, Gunung Beriun, dan Gunung Lumut.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------kebutuhan------>
+
+    <section class="kebutuhan">
+        <h1>KEBUTUHAN</h1>
+        <p>beberapa kebtuhan yang harus di penuhi yaitu:</p>
+
+        <div class="row">
+            <div class="kebutuhan-col">
+                <img src="images/tas gunung1.jpg">
+                    <h3>Tas carrier/tas gunung</h3>
+                    <p>Untuk membawa perlengkapan. Pilih kapasitas yang sesuai dengan durasi pendakian
+                        <br>(misalnya, 60-80 liter untuk pendakian beberapa hari).</p>
+                </div>
+            <div class="kebutuhan-col">
+                <img src="images/sleeping bag.jpg">
+                    <h3>Peralatan tidur(sleeping bag)</h3>
+                    <p>Tenda (sesuaikan dengan kapasitas).
+                        <br>Sleeping bag (sesuaikan dengan suhu terendah).
+                        <br>Matras (untuk isolasi dari dingin).</p>
+                </div>
+            <div class="kebutuhan-col">
+                <img src="images/masak.jpg">
+                    <h3>Peralatan masak</h3>
+                    <p>Nesting (alat masak).
+                        <br>Peralatan makan (piring, sendok, dll.).
+                        <br>Botol air atau wadah minum.
+                        <br>Makanan (dengan kalori yang cukup).</p>
+                </div>
+            </div>
+    </section>
+    
+
+
+    <!-------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Terima Kasih Telah mengunjungi Website saya</p>
+        <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-whatsaap"></i>
+        </div>
+        <p>Made with<i class="fa fa-heart-o"></i>by Annisa Mulyani</p>
+
+    </section>
+
+    <!-----javascript for toggle menu----->
+    <script>
+        
+        var navLinks= document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
